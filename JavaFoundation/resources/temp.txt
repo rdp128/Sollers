@@ -1,0 +1,1 @@
+When a Serializable class object is serialized Java Runtime associates a serial version no.(called as serialVersionUID) with this serialized object. At the time when you deserialize this serialized object Java Runtime matches the serialVersionUID of serialized object with the serialVersionUID of the class.
